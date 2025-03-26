@@ -1,0 +1,401 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Mar 24 13:41:04 2025
+# Process ID: 7648
+# Current directory: C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3036 C:\Users\eleves\Desktop\FINALLLL\FPGA_Emilie_uart_ascon_light_el_test\uart_ascon_light_el.xpr
+# Log file: C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/vivado.log
+# Journal file: C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test\vivado.jou
+# Running On        :GCP-E105-22
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12500
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :16363 MB
+# Swap memory       :16642 MB
+# Total Virtual     :33006 MB
+# Available Virtual :28214 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+ct [list \
+  CONFIG.C_NUM_OF_PROBES {4} \
+  CONFIG.C_PROBE0_WIDTH {1472} \
+  CONFIG.C_PROBE1_WIDTH {1} \
+  CONFIG.C_PROBE2_WIDTH {1} \
+  CONFIG.C_PROBE3_WIDTH {8} \
+] [get_ips ila_uart]
+generate_target all [get_files  C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci]
+catch { config_ip_cache -export [get_ips -all ila_uart] }
+export_ip_user_files -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -no_script -sync -force -quiet
+reset_run ila_uart_synth_1
+launch_runs ila_uart_synth_1 -jobs 8
+wait_on_run ila_uart_synth_1
+export_simulation -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -directory C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files -ipstatic_source_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/modelsim} {questa=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/questa} {riviera=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/riviera} {activehdl=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+open_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes fsm_uart_0/init_cipher_s -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes fsm_uart_0/en_cipher_s -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {fsm_uart_0/Cipher_i} {fsm_uart_0/cipher_reg_o_s} {fsm_uart_0/en_cipher_s} {fsm_uart_0/init_cipher_s} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property CONFIG.C_PROBE0_WIDTH {128} [get_ips ila_uart]
+generate_target all [get_files  C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci]
+catch { config_ip_cache -export [get_ips -all ila_uart] }
+export_ip_user_files -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -no_script -sync -force -quiet
+reset_run ila_uart_synth_1
+launch_runs ila_uart_synth_1 -jobs 12
+wait_on_run ila_uart_synth_1
+export_simulation -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -directory C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files -ipstatic_source_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/modelsim} {questa=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/questa} {riviera=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/riviera} {activehdl=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {fsm_uart_0/Tag_i} {fsm_uart_0/en_tag_s} {fsm_uart_0/init_tag_s} {fsm_uart_0/tag_reg_o_s} }
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes fsm_uart_0/init_tag_s -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+set_property TRIGGER_COMPARE_VALUE neq1'bX [get_hw_probes fsm_uart_0/en_tag_s -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+set_property TRIGGER_COMPARE_VALUE neq1'b0 [get_hw_probes fsm_uart_0/en_tag_s -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"fsm_uart_0/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property -dict [list \
+  CONFIG.C_NUM_OF_PROBES {3} \
+  CONFIG.C_PROBE2_WIDTH {4} \
+] [get_ips ila_uart]
+generate_target all [get_files  C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci]
+catch { config_ip_cache -export [get_ips -all ila_uart] }
+export_ip_user_files -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -directory C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files -ipstatic_source_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/modelsim} {questa=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/questa} {riviera=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/riviera} {activehdl=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+generate_target all [get_files  C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci]
+catch { config_ip_cache -export [get_ips -all ila_uart] }
+export_ip_user_files -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -no_script -sync -force -quiet
+reset_run ila_uart_synth_1
+launch_runs ila_uart_synth_1 -jobs 12
+wait_on_run ila_uart_synth_1
+export_simulation -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -directory C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files -ipstatic_source_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/modelsim} {questa=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/questa} {riviera=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/riviera} {activehdl=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ascon_top_0/u_ascon/enable_tag_s} {ascon_top_0/u_ascon/round_s} {ascon_top_0/u_ascon/tag_o} }
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes ascon_top_0/u_ascon/enable_tag_s -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/your_instance_name"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/your_instance_name"}]]
+set_property -dict [list \
+  CONFIG.C_NUM_OF_PROBES {4} \
+  CONFIG.C_PROBE0_WIDTH {320} \
+  CONFIG.C_PROBE3_WIDTH {320} \
+] [get_ips ila_uart]
+generate_target all [get_files  C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci]
+catch { config_ip_cache -export [get_ips -all ila_uart] }
+export_ip_user_files -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -directory C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files -ipstatic_source_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/modelsim} {questa=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/questa} {riviera=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/riviera} {activehdl=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+reset_run ila_uart_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ascon_top_0/u_ascon/U3/enable_i} {ascon_top_0/u_ascon/U3/output_state_register_s[0]} {ascon_top_0/u_ascon/U3/output_state_register_s[1]} {ascon_top_0/u_ascon/U3/output_state_register_s[2]} {ascon_top_0/u_ascon/U3/output_state_register_s[3]} {ascon_top_0/u_ascon/U3/output_state_register_s[4]} {ascon_top_0/u_ascon/U3/output_xor_end_s[0]} {ascon_top_0/u_ascon/U3/output_xor_end_s[1]} {ascon_top_0/u_ascon/U3/output_xor_end_s[2]} {ascon_top_0/u_ascon/U3/output_xor_end_s[3]} {ascon_top_0/u_ascon/U3/output_xor_end_s[4]} {ascon_top_0/u_ascon/U3/round_i} }
+set_property TRIGGER_COMPARE_VALUE eq4'hX [get_hw_probes ascon_top_0/u_ascon/U3/round_i -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes ascon_top_0/u_ascon/U3/enable_i -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+set_property -dict [list \
+  CONFIG.C_NUM_OF_PROBES {6} \
+  CONFIG.C_PROBE4_WIDTH {128} \
+] [get_ips ila_uart]
+generate_target all [get_files  C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci]
+catch { config_ip_cache -export [get_ips -all ila_uart] }
+export_ip_user_files -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -no_script -sync -force -quiet
+reset_run ila_uart_synth_1
+launch_runs ila_uart_synth_1 -jobs 12
+wait_on_run ila_uart_synth_1
+export_simulation -of_objects [get_files C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.srcs/sources_1/ip/ila_uart/ila_uart.xci] -directory C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files -ipstatic_source_dir C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/modelsim} {questa=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/questa} {riviera=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/riviera} {activehdl=C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+reset_run synth_1
+reset_run ila_uart_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ascon_top_0/u_ascon/U3/enable_end_key_i} {ascon_top_0/u_ascon/U3/enable_tag_i} {ascon_top_0/u_ascon/U3/tag_o} }
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes ascon_top_0/u_ascon/U3/enable_tag_i -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ascon_top_0/u_ascon/U3/enable_begin_key_i} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]
+set_property PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/eleves/Desktop/FINALLLL/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/impl_1/inter_spartan.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ascon_top_0/u_ascon/U3/your_instance_name"}]]

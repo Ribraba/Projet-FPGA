@@ -1,0 +1,559 @@
+2025-03-25 17:29:24,080 - ECGVisualization - INFO - Logging initialized to logs/ecg_visualization_20250325_172924.log
+2025-03-25 17:29:24,080 - ECGVisualization - INFO - Initialized ECG Visualization
+2025-03-25 17:29:24,081 - ECGVisualization - INFO - Plotting all ECG waveforms from data/output/decrypted_ecg.csv with scrolling effect and R-peaks
+2025-03-25 17:29:24,082 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,088 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,105 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,106 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,106 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,106 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,106 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,112 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,112 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,112 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,113 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,113 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,113 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,113 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,113 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,113 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,114 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,114 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,114 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,114 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,114 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,114 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,114 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,114 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,115 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,115 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,115 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,115 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,116 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,116 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,116 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,116 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,116 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,116 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,116 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,116 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,117 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,117 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,117 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,117 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,117 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,117 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,117 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,117 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,118 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,118 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,118 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,118 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,118 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,118 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,118 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,118 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,119 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,119 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,119 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,119 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,119 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,119 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,119 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,119 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,120 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,120 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,120 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,120 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,120 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,120 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,120 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,120 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,120 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,121 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,121 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,121 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,121 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,121 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,121 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,121 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,121 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,121 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,122 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,122 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,122 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,122 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,122 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,122 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,122 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,122 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,122 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,123 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,123 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,123 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,123 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,123 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,123 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,123 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,123 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,123 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,124 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,124 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,124 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,124 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,124 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,124 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,124 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,124 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,124 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,125 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,125 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,125 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,125 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,125 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,125 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,125 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,125 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,125 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,126 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,126 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,126 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,126 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,126 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,126 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,126 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,126 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,126 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,127 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,127 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,127 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,127 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 17:29:24,127 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 17:29:24,127 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,127 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 17:29:24,127 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 17:29:24,127 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 17:29:24,128 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 17:29:24,128 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 17:29:24,128 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 17:29:24,128 - ECGVisualization - INFO - Loaded 15 ECG waveforms from CSV
+2025-03-25 17:29:24,128 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,128 - ECGVisualization - INFO - Calculated average BPM: 119.5
+2025-03-25 17:29:24,128 - ECGVisualization - INFO - BPM for waveform 1 (using 5 consecutive waveforms): 119.5
+2025-03-25 17:29:24,128 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,128 - ECGVisualization - INFO - Calculated average BPM: 119.7
+2025-03-25 17:29:24,128 - ECGVisualization - INFO - BPM for waveform 2 (using 5 consecutive waveforms): 119.7
+2025-03-25 17:29:24,128 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculated average BPM: 119.2
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - BPM for waveform 3 (using 5 consecutive waveforms): 119.2
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculated average BPM: 119.3
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - BPM for waveform 4 (using 5 consecutive waveforms): 119.3
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculated average BPM: 119.3
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - BPM for waveform 5 (using 5 consecutive waveforms): 119.3
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculated average BPM: 119.0
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - BPM for waveform 6 (using 5 consecutive waveforms): 119.0
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculated average BPM: 119.3
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - BPM for waveform 7 (using 5 consecutive waveforms): 119.3
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculated average BPM: 122.1
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - BPM for waveform 8 (using 5 consecutive waveforms): 122.1
+2025-03-25 17:29:24,129 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculated average BPM: 119.9
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - BPM for waveform 9 (using 5 consecutive waveforms): 119.9
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculated average BPM: 120.3
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - BPM for waveform 10 (using 5 consecutive waveforms): 120.3
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculated average BPM: 120.6
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - BPM for waveform 11 (using 5 consecutive waveforms): 120.6
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculated average BPM: 103.7
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - BPM for waveform 12 (using 5 consecutive waveforms): 103.7
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculated average BPM: 106.5
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - BPM for waveform 13 (using 5 consecutive waveforms): 106.5
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculated average BPM: 106.5
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - BPM for waveform 14 (using 5 consecutive waveforms): 106.5
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - Calculated average BPM: 109.7
+2025-03-25 17:29:24,130 - ECGVisualization - INFO - BPM for waveform 15 (using 5 consecutive waveforms): 109.7
+2025-03-25 17:29:25,965 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:29:26,864 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:29:27,789 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:29:28,689 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:29:29,589 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:29:30,513 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:29:31,414 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:29:32,339 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:29:33,239 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:29:34,138 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:29:35,064 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:29:35,964 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:29:36,889 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:29:37,789 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:29:38,689 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:29:38,689 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:29:39,614 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:29:40,514 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:29:41,439 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:29:42,338 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:29:43,239 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:29:44,164 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:29:45,064 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:29:45,989 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:29:46,889 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:29:47,789 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:29:48,714 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:29:49,614 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:29:50,539 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:29:51,439 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:29:52,339 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:29:52,339 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:29:53,264 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:29:54,164 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:29:55,089 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:29:55,988 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:29:56,888 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:29:57,814 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:29:58,714 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:29:59,638 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:30:00,538 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:30:01,439 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:30:02,364 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:30:03,264 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:30:04,188 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:30:05,089 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:30:05,988 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:30:05,989 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:30:06,914 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:30:07,814 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:30:08,738 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:30:09,638 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:30:10,538 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:30:11,463 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:30:12,363 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:30:13,288 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:30:14,188 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:30:15,088 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:30:16,014 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:30:16,913 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:30:17,838 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:30:18,738 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:30:19,638 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:30:19,638 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:30:20,563 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:30:21,463 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:30:22,388 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:30:23,288 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:30:24,188 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:30:25,113 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:30:26,013 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:30:26,938 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:30:27,838 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:30:28,738 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:30:29,663 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:30:30,563 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:30:31,489 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:30:32,388 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:30:33,288 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:30:33,288 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:30:34,213 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:30:35,113 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:30:36,038 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:30:36,938 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:30:37,838 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:30:38,763 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:30:39,663 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:30:40,588 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:30:41,488 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:30:42,388 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:30:43,313 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:30:44,213 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:30:45,137 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:30:46,039 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:30:46,937 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:30:46,938 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:30:47,863 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:30:48,762 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:30:49,688 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:30:50,587 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:30:51,487 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:30:52,413 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:30:53,313 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:30:54,238 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:30:55,138 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:30:56,037 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:30:56,963 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:30:57,863 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:30:58,787 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:30:59,687 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:31:00,587 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:31:00,587 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:31:01,512 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:31:02,412 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:31:03,337 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:31:04,237 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:31:05,137 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:31:06,062 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:31:06,962 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:31:07,887 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:31:08,788 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:31:09,688 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:31:10,613 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:31:11,512 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:31:12,438 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:31:13,338 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:31:14,237 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:31:14,237 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:31:15,162 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:31:16,063 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:31:16,987 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:31:17,887 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:31:18,787 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:31:19,712 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:31:20,612 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:31:21,537 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:31:22,438 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:31:23,338 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:31:24,263 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:31:25,163 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:31:26,136 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:31:27,038 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:31:27,938 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:31:27,938 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:31:28,863 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:31:29,762 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:31:30,688 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:31:31,587 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:31:32,487 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:31:33,412 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:31:34,313 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:31:35,237 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:31:36,137 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:31:37,037 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:31:37,963 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:31:38,863 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:31:39,787 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:31:40,687 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:31:41,588 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:31:41,588 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:31:42,513 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:31:43,412 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:31:44,337 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:31:45,237 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:31:46,137 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:31:47,062 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:31:47,962 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:31:48,887 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:31:49,787 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:31:50,686 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:31:51,612 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:31:52,513 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:31:53,437 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:31:54,337 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:31:55,237 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:31:55,255 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:31:56,163 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:31:57,062 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:31:58,062 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:31:59,012 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:31:59,912 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:32:00,837 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:32:01,737 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:32:02,662 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:32:03,561 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:32:04,461 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:32:05,387 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:32:06,287 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:32:07,212 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:32:08,112 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:32:09,012 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:32:09,012 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:32:09,937 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:32:10,837 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:32:11,762 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:32:12,662 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:32:13,562 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:32:14,486 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:32:15,386 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:32:16,311 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:32:17,212 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:32:18,111 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:32:19,036 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:32:19,936 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:32:20,862 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:32:21,762 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:32:22,662 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:32:22,662 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:32:23,586 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:32:24,486 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:32:25,411 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:32:26,312 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:32:27,212 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:32:28,136 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:32:29,037 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:32:29,962 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:32:30,861 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:32:31,762 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:32:32,686 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:32:33,586 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:32:34,512 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:32:35,412 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:32:36,311 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:32:36,329 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:32:37,237 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:32:38,136 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:32:39,061 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:32:39,962 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:32:40,861 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:32:41,786 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:32:42,686 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:32:43,611 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:32:44,512 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:32:45,411 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:32:46,336 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:32:47,236 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:32:48,161 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:32:49,061 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:32:49,961 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:32:49,962 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:32:50,886 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:32:51,786 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:32:52,712 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:32:53,611 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:32:54,512 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:32:55,436 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:32:56,336 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:32:57,261 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:32:58,174 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:32:59,086 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:33:00,011 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:33:00,911 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:33:01,836 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:33:02,765 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:33:03,661 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:33:03,662 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:33:04,585 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:33:05,485 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:33:06,411 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:33:07,311 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:33:08,211 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:33:09,135 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:33:10,036 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:33:10,961 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:33:11,861 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:33:12,761 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:33:13,685 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:33:14,586 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:33:15,511 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:33:16,411 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:33:17,311 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:33:17,311 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:33:18,235 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:33:19,136 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:33:20,061 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:33:20,960 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:33:21,860 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:33:22,785 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:33:23,685 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:33:24,611 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:33:25,511 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:33:26,411 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:33:27,335 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:33:28,236 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:33:29,161 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:33:30,060 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:33:30,961 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:33:30,961 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:33:31,885 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:33:32,785 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:33:33,711 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:33:34,611 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:33:35,511 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:33:36,435 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:33:37,335 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:33:38,261 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:33:39,166 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:33:40,113 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:33:41,085 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:33:42,036 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:33:42,960 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:33:43,863 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:33:44,761 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:33:44,762 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:33:45,685 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:33:46,585 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:33:47,513 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:33:48,412 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:33:49,360 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:33:50,285 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:33:51,186 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:33:52,111 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:33:53,011 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:33:53,910 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:33:54,835 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:33:55,735 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:33:56,660 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:33:57,560 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:33:58,460 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:33:58,461 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:33:59,460 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:34:00,360 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:34:01,285 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:34:02,185 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:34:03,085 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:34:04,010 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:34:04,911 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:34:05,836 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:34:06,735 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:34:07,635 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:34:08,560 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:34:09,461 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:34:10,387 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:34:11,285 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:34:12,185 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:34:12,185 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:34:13,110 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:34:14,010 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:34:14,935 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:34:15,835 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:34:16,735 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:34:17,660 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:34:18,560 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:34:19,485 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:34:20,385 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:34:21,310 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:34:22,235 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:34:23,135 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:34:24,060 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:34:24,960 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:34:25,860 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:34:25,868 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:34:26,787 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:34:27,684 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:34:28,610 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:34:29,510 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:34:30,417 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:34:31,334 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:34:32,234 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 17:34:33,160 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 17:34:34,060 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 17:34:34,960 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 17:34:35,884 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 17:34:36,784 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 17:34:37,709 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 17:34:38,609 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 17:34:39,509 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 17:34:39,510 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 17:34:40,434 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 17:34:41,335 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 17:34:42,259 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 17:34:43,160 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 17:34:44,060 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 17:34:45,059 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 17:34:45,960 - ECGVisualization - INFO - Moving to waveform 7

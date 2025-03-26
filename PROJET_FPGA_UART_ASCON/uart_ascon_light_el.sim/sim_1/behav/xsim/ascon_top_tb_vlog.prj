@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/RTL2/ascon_pack.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/ascon_pack.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/new/FSM_ascon.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/Pc.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/Permutation.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/Pl.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/Ps.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/Sbox.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/ascon.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/new/ascon_top.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/compteur_double_init.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/fsm_moore.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/mux_state.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/register_w_en.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/state_register_w_en.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/xor_begin_perm.sv" \
+"../../../../uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/xor_end_perm.sv" \
+"../../../../uart_ascon_light_el.srcs/sim_1/imports/new/ascon_top_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,35 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/RTL2/ascon_pack.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/ascon_pack.sv" into library xil_defaultlib
+WARNING: [VRFC 10-8896] design element 'ascon_pack' is previously defined; ignoring this definition [E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/ascon_pack.sv:1]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/new/FSM_ascon.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_ascon
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/Pc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/Permutation.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Permutation
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/Pl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/Ps.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ps
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/Sbox.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sbox
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/ascon.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascon
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/new/ascon_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascon_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/compteur_double_init.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compteur_double_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/fsm_moore.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm_moore
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/mux_state.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_state
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/register_w_en.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_w_en
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/state_register_w_en.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module state_register_w_en
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/xor_begin_perm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor_begin_perm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sources_1/imports/sources_1/imports/ASCON/xor_end_perm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor_end_perm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/uart_ascon_light_el/uart_ascon_light_el.srcs/sim_1/imports/new/ascon_top_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascon_top_tb

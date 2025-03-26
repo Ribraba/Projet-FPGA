@@ -1,0 +1,5 @@
+2025-03-26 16:12:36,954 - ECGVisualization - INFO - Logging initialized to logs/ecg_visualization_20250326_161236.log
+2025-03-26 16:12:36,954 - ECGVisualization - INFO - Initialized ECG Visualization
+2025-03-26 16:12:36,954 - ECGVisualization - INFO - Plotting all ECG waveforms from data/output/decrypted_ecg.csv with scrolling effect and R-peaks
+2025-03-26 16:12:36,954 - ECGVisualization - INFO - Loaded 0 ECG waveforms from CSV
+2025-03-26 16:12:36,954 - ECGVisualization - ERROR - No waveforms found in the CSV file

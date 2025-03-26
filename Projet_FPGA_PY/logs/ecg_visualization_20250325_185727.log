@@ -1,0 +1,203 @@
+2025-03-25 18:57:27,118 - ECGVisualization - INFO - Logging initialized to logs/ecg_visualization_20250325_185727.log
+2025-03-25 18:57:27,119 - ECGVisualization - INFO - Initialized ECG Visualization
+2025-03-25 18:57:27,119 - ECGVisualization - INFO - Plotting all ECG waveforms from data/output/decrypted_ecg.csv with scrolling effect and R-peaks
+2025-03-25 18:57:27,119 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,130 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,139 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,139 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,139 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,140 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,140 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,143 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,143 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,143 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,143 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,144 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,144 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,144 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,144 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,144 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,145 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,145 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,145 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,145 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,145 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,145 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,145 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,145 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,146 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,146 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,146 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,146 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,147 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,147 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,147 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,147 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,147 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,147 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,147 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,147 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,148 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,148 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,148 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,148 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,148 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,149 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,149 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,150 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,150 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,150 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,150 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,150 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,150 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,150 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,150 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,151 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,151 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,151 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,151 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,151 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,151 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,151 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,151 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,151 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,152 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,152 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,152 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,152 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,152 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,153 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,153 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,153 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,153 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,153 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,153 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,153 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,153 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,154 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,154 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,154 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,154 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,154 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,154 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,154 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,154 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,154 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,155 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,155 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,155 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,155 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,155 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,155 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,155 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,155 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,155 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,156 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,156 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,156 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,156 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,156 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,156 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,156 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,156 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,156 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,157 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,157 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,157 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,157 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,157 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,157 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,157 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,157 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,158 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,158 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,158 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,158 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,158 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,158 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,158 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,158 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,158 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,159 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,159 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,159 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,159 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,159 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,159 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,159 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,159 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,159 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,160 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:57:27,160 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:57:27,160 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,160 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:57:27,160 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:57:27,160 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:57:27,160 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:57:27,160 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:57:27,160 - ECGVisualization - INFO - Detected 1 R-peaks in waveform
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - Loaded 15 ECG waveforms from CSV
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - Calculated average BPM: 119.5
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - BPM for waveform 1 (using 5 consecutive waveforms): 119.5
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - Calculated average BPM: 119.7
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - BPM for waveform 2 (using 5 consecutive waveforms): 119.7
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - Calculated average BPM: 119.2
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - BPM for waveform 3 (using 5 consecutive waveforms): 119.2
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - Calculated average BPM: 119.3
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - BPM for waveform 4 (using 5 consecutive waveforms): 119.3
+2025-03-25 18:57:27,161 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculated average BPM: 119.3
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - BPM for waveform 5 (using 5 consecutive waveforms): 119.3
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculated average BPM: 119.0
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - BPM for waveform 6 (using 5 consecutive waveforms): 119.0
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculated average BPM: 119.3
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - BPM for waveform 7 (using 5 consecutive waveforms): 119.3
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculated average BPM: 122.1
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - BPM for waveform 8 (using 5 consecutive waveforms): 122.1
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculated average BPM: 119.9
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - BPM for waveform 9 (using 5 consecutive waveforms): 119.9
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculated average BPM: 120.3
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - BPM for waveform 10 (using 5 consecutive waveforms): 120.3
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - Calculated average BPM: 120.6
+2025-03-25 18:57:27,162 - ECGVisualization - INFO - BPM for waveform 11 (using 5 consecutive waveforms): 120.6
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - Calculated average BPM: 103.7
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - BPM for waveform 12 (using 5 consecutive waveforms): 103.7
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - Calculated average BPM: 106.5
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - BPM for waveform 13 (using 5 consecutive waveforms): 106.5
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - Calculated average BPM: 106.5
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - BPM for waveform 14 (using 5 consecutive waveforms): 106.5
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - Calculating BPM from R peaks
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - Calculated average BPM: 109.7
+2025-03-25 18:57:27,163 - ECGVisualization - INFO - BPM for waveform 15 (using 5 consecutive waveforms): 109.7
+2025-03-25 18:57:29,182 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 18:57:30,079 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 18:57:31,005 - ECGVisualization - INFO - Moving to waveform 3
+2025-03-25 18:57:31,905 - ECGVisualization - INFO - Moving to waveform 4
+2025-03-25 18:57:32,806 - ECGVisualization - INFO - Moving to waveform 5
+2025-03-25 18:57:33,730 - ECGVisualization - INFO - Moving to waveform 6
+2025-03-25 18:57:34,630 - ECGVisualization - INFO - Moving to waveform 7
+2025-03-25 18:57:35,555 - ECGVisualization - INFO - Moving to waveform 8
+2025-03-25 18:57:36,455 - ECGVisualization - INFO - Moving to waveform 9
+2025-03-25 18:57:37,355 - ECGVisualization - INFO - Moving to waveform 10
+2025-03-25 18:57:38,281 - ECGVisualization - INFO - Moving to waveform 11
+2025-03-25 18:57:39,180 - ECGVisualization - INFO - Moving to waveform 12
+2025-03-25 18:57:40,105 - ECGVisualization - INFO - Moving to waveform 13
+2025-03-25 18:57:41,006 - ECGVisualization - INFO - Moving to waveform 14
+2025-03-25 18:57:41,908 - ECGVisualization - INFO - Moving to waveform 15
+2025-03-25 18:57:41,909 - ECGVisualization - INFO - Restarting from first waveform
+2025-03-25 18:57:42,831 - ECGVisualization - INFO - Moving to waveform 1
+2025-03-25 18:57:43,731 - ECGVisualization - INFO - Moving to waveform 2
+2025-03-25 18:57:44,655 - ECGVisualization - INFO - Moving to waveform 3

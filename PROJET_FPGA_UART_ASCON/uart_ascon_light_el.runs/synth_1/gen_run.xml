@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1742834378" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/inter_spartan.dcp">
+  <File Type="PA-TCL" Name="inter_spartan.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="inter_spartan_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="inter_spartan_reports.tcl"/>
+  <File Type="RDS-RDS" Name="inter_spartan.vds"/>
+  <File Type="RDS-UTIL" Name="inter_spartan_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="inter_spartan_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="inter_spartan.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="inter_spartan_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="inter_spartan_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/ascon_pack.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/ascon_pack.sv"/>
+        <Attr Name="ImportTime" Val="1736931313"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/ascon_pack.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/ascon_pack.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/FSM_ascon.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/new/FSM_ascon.sv"/>
+        <Attr Name="ImportTime" Val="1741880812"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/Pc.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/Pc.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/Permutation.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/Permutation.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/Pl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/Pl.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/Ps.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/Ps.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/Sbox.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/Sbox.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/uart_pkg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/uart_pkg.sv"/>
+        <Attr Name="ImportTime" Val="1736265363"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/ad_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/ad_reg.sv"/>
+        <Attr Name="ImportTime" Val="1736072740"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/ascon.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/ascon.sv"/>
+        <Attr Name="ImportTime" Val="1741015124"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/ascon_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../uart_ascon/uart_ascon.srcs/sources_1/imports/RTL2/ascon_reg.sv"/>
+        <Attr Name="ImportTime" Val="1737467905"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/ascon_top.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/new/ascon_top.sv"/>
+        <Attr Name="ImportTime" Val="1741879378"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/baud_generator.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/baud_generator.sv"/>
+        <Attr Name="ImportTime" Val="1735923056"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/cipher_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/cipher_reg.sv"/>
+        <Attr Name="ImportTime" Val="1736351375"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/compteur_double_init.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/compteur_double_init.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/compteur_simple_init.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../compteur_simple_init.sv"/>
+        <Attr Name="ImportTime" Val="1742573429"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/fsm_dcounter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/fsm_dcounter.sv"/>
+        <Attr Name="ImportTime" Val="1736352503"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/fsm_moore.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/fsm_moore.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/fsm_uart.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/fsm_uart.sv"/>
+        <Attr Name="ImportTime" Val="1736351703"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/key_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/key_reg.sv"/>
+        <Attr Name="ImportTime" Val="1736072414"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/mux_state.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/mux_state.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/nonce_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/nonce_reg.sv"/>
+        <Attr Name="ImportTime" Val="1736072421"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/receive.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/receive.sv"/>
+        <Attr Name="ImportTime" Val="1735998080"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/reg_sel.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/reg_sel.sv"/>
+        <Attr Name="ImportTime" Val="1735997861"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/register_w_en.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/register_w_en.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/rx_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/rx_reg.sv"/>
+        <Attr Name="ImportTime" Val="1735837727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/rxbit_dcounter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/rxbit_dcounter.sv"/>
+        <Attr Name="ImportTime" Val="1735839802"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/state_register_w_en.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/state_register_w_en.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/tag_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/tag_reg.sv"/>
+        <Attr Name="ImportTime" Val="1736073299"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/trans_receive.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/trans_receive.sv"/>
+        <Attr Name="ImportTime" Val="1736265444"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/transmit.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/transmit.sv"/>
+        <Attr Name="ImportTime" Val="1735997994"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/tx_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/tx_reg.sv"/>
+        <Attr Name="ImportTime" Val="1735918126"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/txbit_dcounter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/txbit_dcounter.sv"/>
+        <Attr Name="ImportTime" Val="1735918478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/uart_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/uart_core.sv"/>
+        <Attr Name="ImportTime" Val="1735983507"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/wave_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/wave_reg.sv"/>
+        <Attr Name="ImportTime" Val="1736351360"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/xor_begin_perm.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/xor_begin_perm.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ASCON/xor_end_perm.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/FPGA - Ibra - ASCON/FPGA - Ibra - ASCON.srcs/sources_1/imports/ASCON/xor_end_perm.sv"/>
+        <Attr Name="ImportTime" Val="1741005528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL2/inter_spartan.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fromvenelles/cmp_12_01_25/digital_design/EI24/SRC/RTL2/inter_spartan.sv"/>
+        <Attr Name="ImportTime" Val="1737273134"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="inter_spartan"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/uart_test.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../uart_test/uart_test.srcs/constrs_1/new/uart_test.xdc"/>
+        <Attr Name="ImportTime" Val="1736237352"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/new/uart_test.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/inter_spartan.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../uart_ascon/uart_ascon.srcs/utils_1/imports/synth_1/inter_spartan.dcp"/>
+        <Attr Name="ImportTime" Val="1737622811"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design">
+      <Option Id="FlattenHierarchy">1</Option>
+    </Step>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ila_uart"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

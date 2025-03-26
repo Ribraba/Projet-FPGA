@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Mar 25 13:25:30 2025
+# Process ID: 14912
+# Current directory: E:/LESSSGOO/FPGA_Emilie_uart_ascon_light_el_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14356 E:\LESSSGOO\FPGA_Emilie_uart_ascon_light_el_test\uart_ascon_light_el.xpr
+# Log file: E:/LESSSGOO/FPGA_Emilie_uart_ascon_light_el_test/vivado.log
+# Journal file: E:/LESSSGOO/FPGA_Emilie_uart_ascon_light_el_test\vivado.jou
+# Running On: GCP-E106-20, OS: Windows, CPU Frequency: 3096 MHz, CPU Physical cores: 6, Host memory: 16474 MB
+#-----------------------------------------------------------
+start_guopen_project E:/LESSSGOO/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.xpr

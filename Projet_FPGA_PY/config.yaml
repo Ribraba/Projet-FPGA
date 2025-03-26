@@ -1,0 +1,27 @@
+files:
+  input_csv: "data/input/waveform_test_ecg.csv"
+  decrypted_csv: "data/output/decrypted_ecg.csv"
+
+fpga:
+  port: "/dev/tty.usbserial-AV0KRXPV"
+  baud_rate: 115200
+  timeout: 1
+
+ascon:
+  key: "8A55114D1CB6A9A2BE263D4D7AECAAFF"
+  nonce: "4ED0EC0B98C529B7C8CDDF37BCD0284A"
+  associated_data: "4120746F2042"
+
+visualization:
+  apply_filter: true
+  lowcut: 0.5
+  highcut: 45.0
+  filter_order: 101
+  bpm_window: 5
+  buffer_size: 1000
+  update_interval: 25
+
+logging:
+  level: INFO
+  folder: "logs"
+

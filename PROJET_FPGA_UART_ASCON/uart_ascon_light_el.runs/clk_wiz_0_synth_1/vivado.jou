@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Mar 20 15:50:43 2025
+# Process ID: 10008
+# Current directory: C:/Users/eleves/Desktop/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/clk_wiz_0_synth_1
+# Command line: vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file: C:/Users/eleves/Desktop/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: C:/Users/eleves/Desktop/FPGA_Emilie_uart_ascon_light_el_test/uart_ascon_light_el.runs/clk_wiz_0_synth_1\vivado.jou
+# Running On        :GCP-E103-29
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12500
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :16363 MB
+# Swap memory       :16642 MB
+# Total Virtual     :33006 MB
+# Available Virtual :23158 MB
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace

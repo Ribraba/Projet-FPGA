@@ -1,0 +1,12 @@
+2025-03-25 18:21:46,425 - ECGVisualization - INFO - Logging initialized to logs/ecg_visualization_20250325_182146.log
+2025-03-25 18:21:46,425 - ECGVisualization - INFO - Initialized ECG Visualization
+2025-03-25 18:21:46,426 - ECGVisualization - INFO - Plotting all ECG waveforms from data/output/decrypted_ecg.csv with scrolling effect and R-peaks
+2025-03-25 18:21:46,427 - ECGVisualization - INFO - Applying FIR filter (lowcut=0.5Hz, highcut=45.0Hz, order=101)
+2025-03-25 18:21:46,434 - ECGVisualization - WARNING - Reducing filter order to 59 due to signal length
+2025-03-25 18:21:46,445 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:21:46,445 - ECGVisualization - INFO - Applied FIR filter to waveform
+2025-03-25 18:21:46,445 - ECGVisualization - INFO - Detecting R peaks with enhanced precision
+2025-03-25 18:21:46,446 - ECGVisualization - INFO - Applying FIR filter (lowcut=8Hz, highcut=20Hz, order=31)
+2025-03-25 18:21:46,446 - ECGVisualization - INFO - FIR filtering completed successfully
+2025-03-25 18:21:46,451 - ECGVisualization - INFO - Detected 1 validated R-peaks in signal
+2025-03-25 18:21:46,452 - ECGVisualization - ERROR - Error plotting ECG waveforms: The data length is too small to be segmented.
